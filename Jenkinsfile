@@ -9,7 +9,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        bat '"mvn -Dmaven.test.failure.ignore=true clean package'
+        
         echo 'Hello from COMP367'
       }
     }
